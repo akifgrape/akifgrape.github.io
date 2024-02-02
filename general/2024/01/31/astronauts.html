@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<style>
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #1c1c1c;
+      color: white;
+    }
+
+    .markdown-body table tr {
+      background-color: #1c1c1c;
+    }
+
+    .markdown-body table tr:nth-child(2n) {
+      background-color: black;
+    }
+  }
+</style>
+
+
+
+
+<link rel="stylesheet" type="text/css" href="../../../../css/common-vendor.b8ecfc406ac0b5f77a26.css">
+<link rel="stylesheet" type="text/css" href="../../../../css/fretboard.f32f2a8d5293869f0195.css">
+<link rel="stylesheet" type="text/css" href="../../../../css/pretty.0ae3265014f89d9850bf.css">
+<link rel="stylesheet" type="text/css" href="../../../../css/pretty-vendor.83ac49e057c3eac4fce3.css">
+<link rel="stylesheet" type="text/css" href="../../../../css/global.css">
+<link rel="stylesheet" type="text/css" href="../../../../css/misc.css">
+
+<script type="text/x-mathjax-config">
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\(', '\)']]
+  },
+  svg: {
+    fontCache: 'global',
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async src="../../../../scripts/tex-svg.js">
+</script>
+
+<style>
+</style>
+
+<div id="doc" class="container-fluid markdown-body comment-enabled" data-hard-breaks="true">
+
+  <div id="color-mode-switch">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+      stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round"
+        d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+    </svg>
+    <input type="checkbox" id="switch" />
+    <label for="switch">Dark Mode Toggle</label>
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+      stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round"
+        d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+    </svg>
+  </div>
+
+  <script type="text/javascript">
+    // Update root html class to set CSS colors
+    const toggleDarkMode = () => {
+      const root = document.querySelector('html');
+      root.classList.toggle('dark');
+    }
+
+    // Update local storage value for colorScheme
+    const toggleColorScheme = () => {
+      const colorScheme = localStorage.getItem('colorScheme');
+      if (colorScheme === 'light') localStorage.setItem('colorScheme', 'dark');
+      else localStorage.setItem('colorScheme', 'light');
+    }
+
+    // Set toggle input handler
+    const toggle = document.querySelector('#color-mode-switch input[type="checkbox"]');
+    if (toggle) toggle.onclick = () => {
+      toggleDarkMode();
+      toggleColorScheme();
+    }
+
+    // Check for color scheme on init
+    const checkColorScheme = () => {
+      const colorScheme = localStorage.getItem('colorScheme');
+      // Default to light for first view
+      if (colorScheme === null || colorScheme === undefined) localStorage.setItem('colorScheme', 'light');
+      // If previously saved to dark, toggle switch and update colors
+      if (colorScheme === 'dark') {
+        toggle.checked = true;
+        toggleDarkMode();
+      }
+    }
+    checkColorScheme();
+  </script>
+
+  <br>
+  <h1 style="margin-bottom:7px"> </h1>
+  <small style="float:left; color: #888"> 2024 Jan 31 </small>
+  <small style="float:right; color: #888"><a href="../../../../">See all posts</a></small>
+  <br> <br> <br>
+  <title>Floating Astronauts in Space: The Reality Behind the Equivalence Principle</title>
+
+  <p><em>Special thanks to the Worldcoin and Modulus Labs teams, Xinyuan
+      Sun, Martin Koeppelmann and Illia Polosukhin for feedback and
+      discussion.</em></p>
+
+  <p>I would like to address a topic that has been frequently
+    misunderstood by people lately. The phenomenon of astronauts
+    floating or dancing in space seems appealing at first glance,
+    but it is, in fact, a result of the <em>equivalence principle</em>
+    and the concept of <em>free fall</em>. In this article, I will
+    elaborate on why astronauts appear to float on the International
+    Space Station (ISS), how they are not actually in a gravity-free
+    environment, and delve into the concept of <em>continuous falling</em>
+    .</p>
+
+  <center>
+    <p><br></p>
+    <p><img src="../../../../images/astronauts/astro.png" /></p>
+    <p><em>Van Gogh art style,astronaut floating on the iss <a href="https://app.leonardo.ai/">Astronaut
+          blog post</a></p>
+  </center>
+
+  <h2 id="the-four-major-categories">Astronaut Movement on the ISS:</h2>
+  <p><em>Gravity</em>, one of the most striking discoveries in
+    the scientific world, signifies a fundamental change in physical
+    reality. The impression that astronauts float while navigating the
+    ISS may seem accurate initially, but it is an illusion. Astronauts
+    are not actually in a gravity-free environment. Since the ISS is only
+    about 400 kilometers above the Earth, gravity still has an impact,
+    around 90% of what we experience on the Earth's surface.</p>
+
+  <center>
+    <p><br></p>
+    <p><img src="../../../../images/astronauts/earth.jpg" /></p>
+    <p><em>Van Gogh art style,view of the world from iss<a href="https://app.leonardo.ai/">
+          blog post</a></p>
+  </center>
+
+  <h2 id="the-four-major-categories">Why Do They Appear to Float?:</h2>
+  <p>Astronauts on the ISS are, in reality, in a state of
+    <em>continuous free fall</em>. In space, as objects fall,
+    they also move away from their surroundings. This condition
+    can be described as a form of <em>infinite falling</em>.
+    The ISS, moving at a sufficient speed, continually falls
+    towards the Earth while simultaneously distancing itself
+    from our planet. Understanding this requires a different
+    perspective than that of Earth.
+  </p>
+
+  <h2 id="the-four-major-categories">Explanation with an Example:</h2>
+  <p>
+    Imagine making a throw with a ball on the Earth's surface.
+    Let's launch the ball parallel to the ground. What happens?
+    After a while, the ball follows a parabolic trajectory and
+    falls to the ground. However, this time, let's launch the ball
+    with an extremely high speed. It could potentially reach beyond
+    the Earth's orbit. We use a similar logic when launching rockets
+    into space.</p>
+  <p>
+    Now, let's revisit the scenario where the ball falls to the ground.
+    An important detail often overlooked here is the
+    spherical nature of the Earth. In reality, the Earth is not flat.
+    As the ball continues its trajectory after being
+    launched, the curvature of the Earth causes the ground beneath it
+    to move away slightly. Now, let's launch the ball
+    with such a high speed that the distance the Earth moves away from
+    it, at the point where it would land, remains the
+    same. Theoretically, if the Earth were flat, the ball would fall
+    straight down. However, the Earth's surface is
+    continuously moving away from the ball by the same distance it is
+    falling. What happens in this situation? It enters
+    into orbit around the Earth. It undergoes a continuous free-fall motion
+    , yet never actually touches the ground.
+    Similar to... the ISS.</p>
+  <p>
+    So, the International Space Station (ISS), which seems to be in
+    a gravity-free environment, is essentially
+    undergoing free-fall motion. This is the principle of equivalence at
+    work. Distinguishing between the two,
+    gravity-free and free-fall environments, is not that easy. That's why rigorous
+    testing continues.</p>
+
+ 
+  <h2 id="the-four-major-categories">Conclusion:</h2>
+  <p>Instead of astronauts flying in space, we have astronauts
+    <em>continuously falling</em>. This phenomenon is explained
+    by the <em>equivalence principle</em> and the interaction of
+    <em>free fall motion</em>. Illustrating the topic with
+    real-world examples can aid in better grasping it.
+  </p>
+  </body>
+
+</html>
