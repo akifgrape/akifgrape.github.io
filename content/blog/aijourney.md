@@ -70,9 +70,13 @@ In essence, my vision for AI is not just a tool but a companion, a friend who ca
 
 ## What is Aplle intelligence?
 
-<mark>Deeply integrated into iOS 18 and designed with privacy in mind</mark>, Apple Intelligence gives users new ways to improve their writing skills and communicate more effectively. Integrated, system-wide writing tools let users rewrite, proofread and summarise text. 
+<mark>Deeply integrated into iOS 18 and designed with privacy in mind</mark>, Apple Intelligence gives users new ways to improve their writing skills and communicate more effectively. Integrated, system-wide writing tools let users rewrite, proofread and summarise text. They can also quickly create fun images with Image Playground, and Siri has been updated to provide a more natural.
 
-They can also quickly create fun images with Image Playground, and Siri has been updated to provide a more natural, contextual and personal experience. In short, it is very similar in function to ChatGPT-4o.
+If we delve into more detail, a locally operating artificial intelligence assistant with access to all data on your phone was trained on your data. For example, when we asked it to find the email containing the year-end document that arrived yesterday, it quickly locates and displays that email from among our inbox. 
+
+Let's say your mum sends you a text message saying "I'll arrive at this airport tomorrow at this time". The next day, when your mum needs to arrive, simply ask Siri to plot a route to the airport where your mum will be arriving. Since Siri has access to these messages, it can understand your request and build the route accordingly, all done locally.
+
+If you ask where ChatGPT is used, we can say that it will actually be used for more specific tasks such as creating and rewriting text.
 
 <iframe width=100% height="400px" src="https://www.youtube.com/embed/Q_EYoV1kZWk?si=jofZ7kPdTZv0B1iu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
