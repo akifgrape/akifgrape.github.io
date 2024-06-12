@@ -15,7 +15,7 @@ TocOpen: true
 
 ---
 
-![](https://raw.githubusercontent.com/akifgrape/akifgrape.github.io/main/assets/images/astronauts/astro.png)
+![](https://raw.githubusercontent.com/akifgrape/akifgrape.github.io/main/assets/images/astronauts/earth.jpg)
 
 <div style="text-align:center;">
  
