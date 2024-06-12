@@ -92,6 +92,14 @@ There is a solution to this, and it's open source. It can be reliable, but it's 
 
 The important thing here is why they still have access to our data, of course this could be a mistake but I don't think so.
 
+![](https://raw.githubusercontent.com/akifgrape/akifgrape.github.io/main/assets/images/aijourney/meme.png)
+
+<div style="text-align:center;">
+ 
+  This meme is a perfect example.
+
+</div>
+
 ---
 
 ## What about us, Eighred?
