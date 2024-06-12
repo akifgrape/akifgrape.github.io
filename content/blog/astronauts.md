@@ -15,7 +15,7 @@ TocOpen: true
 
 ---
 
-![](https://akifgrape.github.io/images/astronauts/astro.png)
+![](https://akifgrape.github.io/assets/images/astronauts/astro.png)
 
 <div style="text-align:center;">
  
@@ -31,7 +31,7 @@ Gravity, one of the most striking discoveries in the scientific world, signifies
 
 ---
 
-![](https://akifgrape.github.io/images/astronauts/earth.jpg)
+![](https://akifgrape.github.io/assets/images/astronauts/earth.jpg)
 
 <div style="text-align:center;">
  
