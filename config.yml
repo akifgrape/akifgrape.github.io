@@ -73,7 +73,7 @@ params:
   ShowPageNums: true
   ShowToc: true
   # comments: false
-  images: ["images/DarkMod-cover.png"]
+  images: ["https://raw.githubusercontent.com/akifgrape/akifgrape.github.io/fe08d8a909f184142c8059ad8d4077c3b892e88c/assets/images/DarkMod-cover.png"]
 
   
   homeInfoParams:
@@ -105,11 +105,11 @@ params:
 
 assets:
    disableHLJS: true
-   favicon: https://raw.githubusercontent.com/akifgrape/akifgrape.github.io/main/favicon.ico
-   favicon16x16: https://raw.githubusercontent.com/akifgrape/akifgrape.github.io/main/favicon-16x16.png
-   favicon32x32: https://raw.githubusercontent.com/akifgrape/akifgrape.github.io/main/favicon-32x32.png
-   apple_touch_icon: https://raw.githubusercontent.com/akifgrape/akifgrape.github.io/main/apple-touch-icon.png
-   safari_pinned_tab: https://raw.githubusercontent.com/akifgrape/akifgrape.github.io/main/safari-pinned-tab.svg
+   favicon: ["https://raw.githubusercontent.com/akifgrape/akifgrape.github.io/main/favicon.ico"]
+   favicon16x16: ["https://raw.githubusercontent.com/akifgrape/akifgrape.github.io/main/favicon-16x16.png"]
+   favicon32x32: ["https://raw.githubusercontent.com/akifgrape/akifgrape.github.io/main/favicon-32x32.png"]
+   apple_touch_icon: ["https://raw.githubusercontent.com/akifgrape/akifgrape.github.io/main/apple-touch-icon.png"]
+   safari_pinned_tab: ["https://raw.githubusercontent.com/akifgrape/akifgrape.github.io/main/safari-pinned-tab.svg"]
 
   # cover:
   #     hidden: true # hide everywhere but not in structured data
