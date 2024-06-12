@@ -1,7 +1,7 @@
 ---
 author: ["Akif Grape"]
 title: "Our artificial intelligence journey"
-date: "2024-06-11"
+date: "2024-06-12"
 description: "I will discuss with you the latest developments in technology and our position in the artificial intelligence race. I will also share my views on artificial intelligence."
 summary: "I will discuss with you the latest developments in technology and our position in the artificial intelligence race. I will also share my views on artificial intelligence."
 tags: ["AI","eighred"]
@@ -100,7 +100,7 @@ The important thing here is why they still have access to our data, of course th
 
 <div style="text-align:center;">
  
-  This meme is a perfect example.
+  Not exactly like this, but this meme is a perfect example.
 
 </div>
 
