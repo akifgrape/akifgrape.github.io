@@ -105,11 +105,11 @@ params:
 
 assets:
    disableHLJS: true
-   favicon: "https://raw.githubusercontent.com/akifgrape/akifgrape.github.io/main/favicon.ico"
-   favicon16x16: "https://raw.githubusercontent.com/akifgrape/akifgrape.github.io/main/favicon-16x16.png"
-   favicon32x32: "https://raw.githubusercontent.com/akifgrape/akifgrape.github.io/main/favicon-32x32.png"
-   apple_touch_icon: "https://raw.githubusercontent.com/akifgrape/akifgrape.github.io/main/apple-touch-icon.png"
-   safari_pinned_tab: "https://raw.githubusercontent.com/akifgrape/akifgrape.github.io/main/safari-pinned-tab.svg"
+   favicon: https://raw.githubusercontent.com/akifgrape/akifgrape.github.io/main/favicon.ico
+   favicon16x16: https://raw.githubusercontent.com/akifgrape/akifgrape.github.io/main/favicon-16x16.png
+   favicon32x32: https://raw.githubusercontent.com/akifgrape/akifgrape.github.io/main/favicon-32x32.png
+   apple_touch_icon: https://raw.githubusercontent.com/akifgrape/akifgrape.github.io/main/apple-touch-icon.png
+   safari_pinned_tab: https://raw.githubusercontent.com/akifgrape/akifgrape.github.io/main/safari-pinned-tab.svg
 
   # cover:
   #     hidden: true # hide everywhere but not in structured data
