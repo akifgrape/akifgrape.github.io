@@ -68,7 +68,7 @@ In essence, my vision for AI is not just a tool but a companion, a friend who ca
 
 ---
 
-## What is Aplle intelligence?
+## What is Apple intelligence?
 
 <mark>Deeply integrated into iOS 18 and designed with privacy in mind</mark>, Apple Intelligence gives users new ways to improve their writing skills and communicate more effectively. Integrated, system-wide writing tools let users rewrite, proofread and summarise text. They can also quickly create fun images with Image Playground, and Siri has been updated to provide a more natural.
 
