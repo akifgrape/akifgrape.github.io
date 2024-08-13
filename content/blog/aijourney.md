@@ -44,7 +44,7 @@ Undoubtedly, artificial intelligence is poised to revolutionize education, with 
 
 With artificial intelligence, even a child residing in the remotest corners of the countryside can excel academically. Through personalized learning experiences facilitated by AI, they can grasp concepts effectively and communicate with their virtual tutors. Looking ahead, AI will undoubtedly evolve to recognize diverse learning styles and optimize educational methods accordingly. It will adapt to cater to individual needs, fostering a more inclusive and equitable educational landscape.
 
-In essence, artificial intelligence presents vast opportunities in education, particularly in promoting fairness and equal access to learning resources. Just as in the scenario you described, AI has the potential to level the playing field for learners worldwide, transcending geographical and socioeconomic barriers.
+In essence, artificial intelligence presents vast opportunities in education, particularly in promoting fairness and equal access to learning resources. AI has the potential to level the playing field for learners worldwide, transcending geographical and socioeconomic barriers.
 
 <iframe width=100% height="400px" src="https://www.youtube.com/embed/_nSmkyDNulk?si=13UeFJ8nj3j7g0D-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
