@@ -1,0 +1,160 @@
+# If your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would
+# contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+title: '@akifgrape'
+paginate: 5
+theme: [hugo-DarkMod]
+baseURL: "https://akifgrape.github.io"
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["blog", "DarkMod"]
+
+minify:
+  disableXML: true
+  # minifyOutput: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: About
+          url: about/
+          weight: 10
+        - name: Blog
+          url: blog/
+          weight: 10
+        - name: categories
+          url: categories/
+          weight: 10
+        - name: Archive
+          url: archives
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
+        - name: Search
+          url: search/
+          weight: 11
+
+outputs:
+  home:
+    - HTML
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "@akifgrape - https://github.com/akifgrape/"
+  author: "@akifgrape"
+  # author: ["Me", "You"] # multiple authors
+
+  defaultTheme: dark
+  # disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  # comments: false
+  images: ["https://raw.githubusercontent.com/akifgrape/akifgrape.github.io/fe08d8a909f184142c8059ad8d4077c3b892e88c/assets/images/DarkMod-cover.png"]
+
+  
+  homeInfoParams:
+    title: "`[~]$ root@universe`"
+    Content: >
+       
+        Topics such as physics, nature, blockchain, maths, cryptography, entertainment and economics will be covered in this blog. [Read more..](/about)
+
+        - I am also the Founder/CEO at Eighred to [learn more... ](https://eighred.com/about)
+
+        - My interests are nature, technology, science and software. I am always keen to learn new things. If you have any questions or suggestions, please feel free to contact me via 
+       
+        
+ 
+  # editPost:
+  #   URL: "https://github.com/akifgrape/"
+  #   Text: "Suggest Changes" # edit text
+  #   appendFilePath: true # to append file path to Edit link
+
+  # label:
+  # iconSVG: '<svg xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 -960 960 960" fill="currentColor"><path d="M320-240h320v-80H320v80Zm0-160h320v-80H320v80ZM240-80q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80H240Zm280-520v-200H240v640h480v-440H520ZM240-800v200-200 640-640Z"/></svg>'
+  # text: "Home"
+  # icon: icon.png
+  # iconHeight: 35
+
+  # analytics:
+  #     google:
+  #         SiteVerificationTag: "XYZabc"
+
+    assets:
+      disableHLJS: true
+      favicon: ["../favicon.ico"]
+      favicon16x16: ["../favicon-16x16.png"]
+      favicon32x32: ["../favicon-32x32.png"]
+      apple_touch_icon: ["../apple-touch-icon.png"]
+      safari_pinned_tab: ["../safari-pinned-tab.svg"]
+
+  # cover:
+  #     hidden: true # hide everywhere but not in structured data
+  #     hiddenInList: true # hide on list pages and home
+  #     hiddenInSingle: true # hide on single page
+
+  # fuseOpts:
+  #     isCaseSensitive: false
+  #     shouldSort: true
+  #     location: 0
+  #     distance: 1000
+  #     threshold: 0.4
+  #     minMatchCharLength: 0
+  #     keys: ["title", "permalink", "summary", "content"]
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
+
+# privacy:
+#   vimeo:
+#     disabled: false
+#     simple: true
+
+#   twitter:
+#     disabled: false
+#     enableDNT: true
+#     simple: true
+
+#   instagram:
+#     disabled: false
+#     simple: true
+
+#   youtube:
+#     disabled: false
+#     privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
