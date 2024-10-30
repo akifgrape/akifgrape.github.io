@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on @akifgrape</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in Blogs on @akifgrape</description>
+    <image>
+      <title>@akifgrape</title>
+      <url>https://raw.githubusercontent.com/akifgrape/akifgrape.github.io/fe08d8a909f184142c8059ad8d4077c3b892e88c/assets/images/DarkMod-cover.png</url>
+      <link>https://raw.githubusercontent.com/akifgrape/akifgrape.github.io/fe08d8a909f184142c8059ad8d4077c3b892e88c/assets/images/DarkMod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 12 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>It&#39;s just an empty frame.</title>
+      <link>http://localhost:1313/blog/first-blog/</link>
+      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/first-blog/</guid>
+      <description>It&amp;#39;s just an empty frame.</description>
+    </item>
+  </channel>
+</rss>
