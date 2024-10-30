@@ -10,7 +10,7 @@ This website is personal blog which I use to document my life journey and share 
 
 I am also the Founder/CEO of Eighred to [learn more...](https://eighred.com/about)
 
-My interests are nature, technology, science and software. I am always keen to learn new things. If you have any questions or suggestions, please feel free to contact me via email 
+My interests are nature, jazz music, photography, technology, science and software. I am always keen to learn new things. If you have any questions or suggestions, please feel free to contact me via email 
 
 ```bash
  akifgrape@eighred.com
