@@ -17,6 +17,6 @@ My interests are nature, jazz music, photography, technology, science and softwa
 ```
 Few Interesting pages:
 
-- [Floating Astronauts in Space](/blog/astronauts)
+- [It's just an empty frame.](/blog/first-blog)
 
 >The views expressed on this website (https://akifgrape.github.io/) are mine alone and are based on my own research.
