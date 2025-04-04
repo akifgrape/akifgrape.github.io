@@ -2,7 +2,7 @@
 title: "About Me"
 ---
 
-<img loading="eager" decoding="sync" width="130px" title="everywhere" src="https://pbs.twimg.com/profile_images/1561102607627829253/ccCIfavN_400x400.jpg" alt="everywhere" style="float: right;margin: 10px;border-radius: 12px">
+<img loading="eager" decoding="sync" width="130px" title="everywhere" src="https://avatars.githubusercontent.com/u/121309672?v=4" alt="everywhere" style="float: right;margin: 10px;border-radius: 12px">
 
 Hello, I’m Akif Grape. I’m from Earth 🌎
 
