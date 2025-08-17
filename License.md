@@ -79,4 +79,4 @@ Where you are located in the province of Quebec, Canada, the following clause ap
 
 **EXHIBIT A.**
 
-"Portions Copyright (c) 2020-2024 Eighred Inc. All Rights Reserved."
+"Portions Copyright (c) 2020-2025 Eighred Inc. All Rights Reserved."
